@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses - OBMCLP</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .navbar-brand img {
+        width: auto;
+        height: 100px;
+    }
+    .custom-navbar {
+        background-color: #ffffff;
+        border-bottom: 10px solid #0a4c86;
+    }
+    .custom-navbar .navbar-toggler-icon {
+        filter: invert(1);
+    }
+    .navbar-nav {
+        gap: 16px;
+        align-items: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .navbar-nav .nav-link {
+        background-color: rgba(27, 54, 93, 0.08);
+        color: #000000;
+        padding: 10px 20px;
+        font-size: 1.10rem;
+        border-radius: 12px;
+        transition: background-color 0.2s ease, color 0.2s ease;
+    }
+    .navbar-nav .nav-link:hover {
+        background-color: #819fb6;
+        color: #1b365d;
+    }
+    .navbar-nav .nav-link.portal-link {
+        background-color: #0a4c86;
+        color: #ffffff;
+        font-size: 1.15rem;
+        border-radius: 12px;
+        padding: 13px 26px;
+        font-weight: 600;
+    }
+    .navbar-nav .nav-link.portal-link:hover {
+        background-color: rgba(27, 54, 93, 0.08);
+        color: #1b365d;
+    }
+    .course-card-img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+    footer {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="OBMC Logo (1).png" alt="OBMC Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>   
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page2.html">Courses</a> 
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page3.html">Contact</a>   
+        </li>
+        <li class="nav-item">
+          <a class="nav-link portal-link" href="page4.html">Enroll Now</a>   
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page5.html">About Our Members</a>   
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <header class="bg-white py-5 text-center border-bottom">
+    <div class="container">
+      <h1 class="fw-bold" style="color: #0a4c86;">Academic Programs</h1>
+      <p class="text-muted mb-0">Montessori education tailored for every stage of growth.</p>
+    </div>
+  </header>
+
+  <main class="container py-5">
+    <div id="casa" class="card border-0 shadow-sm mb-4 overflow-hidden" style="border-left: 8px solid #0a4c86 !important;">
+      <div class="row g-0 align-items-center">
+        <div class="col-md-4">
+          <img src="CASA.png" alt="Casa Program" class="course-card-img">
+        </div>
+        <div class="col-md-8 p-4">
+          <h2 class="h4 fw-bold mb-1" style="color: #0a4c86;">Casa</h2>
+          <p class="small fst-italic text-muted mb-3">Ages 3 to 5</p>
+          <p class="mb-0">Focuses on foundational motor skills, independence, sensory learning, and early social development in a prepared Montessori environment.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="primary" class="card border-0 shadow-sm mb-4 overflow-hidden" style="border-left: 8px solid #19a272 !important;">
+      <div class="row g-0 align-items-center">
+        <div class="col-md-4">
+          <img src="PRIMARY.png" alt="Primary Grade School" class="course-card-img">
+        </div>
+        <div class="col-md-8 p-4">
+          <h2 class="h4 fw-bold mb-1" style="color: #19a272;">Primary Grade School</h2>
+          <p class="small fst-italic text-muted mb-3">Ages 6 to 8</p>
+          <p class="mb-0">Builds core literacy, numeracy, and curiosity through hands-on Montessori materials and guided exploration.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="intermediate" class="card border-0 shadow-sm mb-4 overflow-hidden" style="border-left: 8px solid #fdda5e !important;">
+      <div class="row g-0 align-items-center">
+        <div class="col-md-4">
+          <img src="INTERMEDIATE.png" alt="Intermediate Grade School" class="course-card-img">
+        </div>
+        <div class="col-md-8 p-4">
+          <h2 class="h4 fw-bold mb-1" style="color: #d4a017;">Intermediate Grade School</h2>
+          <p class="small fst-italic text-muted mb-3">Ages 9 to 12</p>
+          <p class="mb-0">Encourages critical thinking, research skills, and collaborative projects across science, math, language, and cultural studies.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="jhs" class="card border-0 shadow-sm mb-4 overflow-hidden" style="border-left: 8px solid #ef4985 !important;">
+      <div class="row g-0 align-items-center">
+        <div class="col-md-4">
+          <img src="JHS.png" alt="Junior High School" class="course-card-img">
+        </div>
+        <div class="col-md-8 p-4">
+          <h2 class="h4 fw-bold mb-1" style="color: #ef4985;">Junior High School</h2>
+          <p class="small fst-italic text-muted mb-3">Ages 13 to 16</p>
+          <p class="mb-0">Prepares adolescents for higher academics with deeper subject mastery, leadership opportunities, and real-world problem solving.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="shs" class="card border-0 shadow-sm mb-4 overflow-hidden" style="border-left: 8px solid #4dcaf4 !important;">
+      <div class="row g-0 align-items-center">
+        <div class="col-md-4">
+          <img src="SHS.png" alt="Senior High School" class="course-card-img">
+        </div>
+        <div class="col-md-8 p-4">
+          <h2 class="h4 fw-bold mb-1" style="color: #0b8ec2;">Senior High School</h2>
+          <p class="small fst-italic text-muted mb-3">Ages 17 to 18</p>
+          <p class="mb-0">Equips students for college and career readiness through specialized academic tracks, research, and practical immersion.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+<br><br><br>
+
+<footer class="bg-white py-5 mt-5" style="border-top: 10px solid #0a4c86;">
+    <div class="container">
+      <div class="row gy-4 align-items-start">
+        <div class="col-12 col-md-6">
+          <img src="OBMC Logo (1).png" alt="Operation Brotherhood Montessori Center" style="max-height: 70px;">
+        </div>
+
+        <div class="col-6 col-md-3">
+          <h6 class="fw-bold mb-3">Location</h6>
+          <ul class="list-unstyled small mb-0">
+            <li class="mb-2"><a href="#" class="text-dark">Angeles City, Pampanga</a></li>
+            <li class="mb-2"><a href="#" class="text-dark">Fairview, Quezon City</a></li>
+            <li class="mb-2"><a href="#" class="text-dark">Greenhills, San Juan City</a></li>
+            <li class="mb-2"><a href="#" class="text-dark">B.F. Homes, Las Pinas City</a></li>
+            <li><a href="#" class="text-dark">Sta. Ana, Manila City</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <h6 class="fw-bold mb-3">Contact</h6>
+          <p class="small mb-1">+63 2 8722-9720 to 26</p>
+          <p class="small mb-3"><a href="mailto:info@obmontessori.edu.ph" class="text-dark">info@obmontessori.edu.ph</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
